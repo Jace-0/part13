@@ -1,0 +1,13 @@
+POST  http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hdHRpLmx1a2thQGZpLmNvbSIsImlkIjoxLCJpYXQiOjE3MzQwODEwMDV9.h7jHGCEXhETtgh75R14euAL2lXqaxXAz85UKuYavzhY
+
+{
+  "author": "Matti Luukkainen",
+  "url": "http://staid-password.net",
+  "title": "Et est eum quaerat sunt voluptas adipisci et enim. Minus eos quis deserunt dolores ullam consectetur placeat hic itaque.",
+  "likes": 2990,
+  "year": 2024
+}
+
+# GET http://localhost:3001/api/users
